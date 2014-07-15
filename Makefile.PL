@@ -21,9 +21,9 @@ my %WriteMakefileArgs = (
   "NAME" => "Data::Tabulate::Plugin::ASCIITable",
   "PREREQ_PM" => {
     "Test::CheckManifest" => "1.0",
-    "Text::ASCIITable" => "0.20"
+    "Text::Table::Tiny" => 0
   },
-  "VERSION" => "0.02",
+  "VERSION" => "0.03",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -32,7 +32,7 @@ my %WriteMakefileArgs = (
 
 my %FallbackPrereqs = (
   "Test::CheckManifest" => "1.0",
-  "Text::ASCIITable" => "0.20"
+  "Text::Table::Tiny" => 0
 );
 
 

@@ -14,9 +14,9 @@ meta-spec:
 name: Data-Tabulate-Plugin-ASCIITable
 requires:
   Test::CheckManifest: '1.0'
-  Text::ASCIITable: '0.20'
+  Text::Table::Tiny: '0'
 resources:
   bugtracker: http://github.com/reneeb/Data-Tabulate-Plugin-ASCIITable/issues
   homepage: http://github.com/reneeb/Data-Tabulate-Plugin-ASCIITable
   repository: http://github.com/reneeb/Data-Tabulate-Plugin-ASCIITable.git
-version: '0.02'
+version: '0.03'
